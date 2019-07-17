@@ -1,0 +1,37 @@
+{
+    "filters" : [ 
+        { 
+            "id": 1,
+            "name": "Category",
+            "type": "select",
+            "multiple": true,
+            "dataPlaceholder": "Choose category...",
+            "units": ["AM", "RT", "ML", "SX", "MG"] 
+        },
+        { 
+            "id": 2,
+            "name": "Category",
+            "type": "select",
+            "multiple": true,
+            "dataPlaceholder": "Choose category2...",
+            "units": ["AM", "RT", "ML", "SX", "MG"] 
+        },
+        { 
+            "id": 3,
+            "name": "Price",
+            "type": "select",
+            "multiple": false,
+            "dataPlaceholder": "Choose price...",
+            "units" : ["low", "medium", "high"] 
+        },
+        { 
+            "id": 4,
+            "name": "Price",
+            "type": "select",
+            "multiple": false,
+            "dataPlaceholder": "Choose price2...",
+            "units" : ["low", "medium", "high"] 
+        }
+    ] 
+}
+
